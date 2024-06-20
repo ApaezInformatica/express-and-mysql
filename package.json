@@ -1,0 +1,17 @@
+{
+  "name": "weather-app-server",
+  "version": "1.0.0",
+  "description": "Ejemplo de servidor express para conectarse con MySQL",
+  "scripts": {
+    "servidor-node": "node --env-file .env servidor.mjs",
+    "nodemon": "nodemon -r dotenv/config servidor.mjs "
+  },
+  "author": "Antonio Páez Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.3"
+  }
+}
